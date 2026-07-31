@@ -1,7 +1,28 @@
 aid: nurix
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nurix.png
 name: Nurix
-description: Nurix is a company surfaced as a portfolio company of general-catalyst and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Nurix AI is an enterprise agentic AI platform for sales and customer support,
+  delivering AI voice and chat agents that qualify leads, resolve support
+  issues, and automate back-office operations across voice, chat, and messaging
+  channels. Its products include NuPlay (customer-facing conversational AI
+  agents) and NuStack (a workflow automation engine), backed by a library of
+  400+ pre-built integrations spanning CRM, contact-center (CCaaS),
+  e-commerce/order-management, messaging, and scheduling systems. Nurix is
+  backed by General Catalyst. As of this profile the company exposes no public
+  developer API surface — engagement is via sales/demo and pre-built connectors
+  rather than self-serve API keys or developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/nurix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Conversational AI
+- Agentic AI
+- Customer Support
+- Sales
+- Voice
+- Automation
+- Contact Center
 apis: []
+common:
+- type: DomainSecurity
+  url: security/nurix-domain-security.yml
+- type: Website
+  url: https://www.nurix.ai
+- type: Blog
+  url: https://www.nurix.ai/resource/blogs
+- type: Support
+  url: https://www.nurix.ai/contact-us
+- type: PrivacyPolicy
+  url: https://www.nurix.ai/privacy-policy
+- type: TermsOfService
+  url: https://www.nurix.ai/terms-and-conditions
+- type: Integrations
+  url: https://www.nurix.ai/integrations
+- type: TrustCenter
+  url: https://www.nurix.ai/security-and-compliance
+- type: Compliance
+  url: https://www.nurix.ai/security-and-compliance
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

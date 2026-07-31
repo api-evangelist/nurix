@@ -1,0 +1,32 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.nurix.ai/security-and-compliance
+url: https://www.nurix.ai/security-and-compliance
+# Certifications are asserted on the security-and-compliance page via badge
+# images (ISO, SOC 2) rather than named certificate text; recorded verbatim
+# from what the page publishes. No trust.nurix.ai / trust-center portal found.
+certifications:
+- SOC 2
+- ISO 27001
+governance:
+- Role-based access control (RBAC)
+- Single sign-on (SSO) integration
+- Comprehensive audit logs
+- Regional data residency options
+- Disaster recovery
+legal:
+- name: Data Processing Agreement (DPA)
+- name: Business Associate Agreement (BAA)
+evidence:
+- source: https://www.nurix.ai/security-and-compliance
+  keywords:
+  - soc 2
+  - iso
+  - security
+  - disaster recovery
+  - rbac
+  - sso
+  - audit logs
+  - data residency
+  - dpa
+  - baa

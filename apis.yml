@@ -12,17 +12,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nurix.png
 name: Nurix
-description: >-
-  Nurix AI is an enterprise agentic AI platform for sales and customer support,
-  delivering AI voice and chat agents that qualify leads, resolve support
-  issues, and automate back-office operations across voice, chat, and messaging
-  channels. Its products include NuPlay (customer-facing conversational AI
-  agents) and NuStack (a workflow automation engine), backed by a library of
-  400+ pre-built integrations spanning CRM, contact-center (CCaaS),
-  e-commerce/order-management, messaging, and scheduling systems. Nurix is
-  backed by General Catalyst. As of this profile the company exposes no public
-  developer API surface — engagement is via sales/demo and pre-built connectors
-  rather than self-serve API keys or developer documentation.
+description: Nurix AI is an enterprise agentic AI platform for sales and customer support, delivering
+  AI voice and chat agents that qualify leads, resolve support issues, and automate back-office operations
+  across voice, chat, and messaging channels. Its products include NuPlay (customer-facing conversational
+  AI agents) and NuStack (a workflow automation engine), backed by a library of 400+ pre-built integrations
+  spanning CRM, contact-center (CCaaS), e-commerce/order-management, messaging, and scheduling systems.
+  Nurix is backed by General Catalyst. As of this profile the company exposes no public developer API
+  surface — engagement is via sales/demo and pre-built connectors rather than self-serve API keys or developer
+  documentation.
 url: https://raw.githubusercontent.com/api-evangelist/nurix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -32,7 +29,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-08'
 tags:
 - Company
 - Artificial Intelligence
@@ -63,6 +60,8 @@ common:
   url: https://www.nurix.ai/security-and-compliance
 - type: Compliance
   url: https://www.nurix.ai/security-and-compliance
+- type: LLMsTxt
+  url: llms/nurix-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -73,3 +72,5 @@ x-enrichment:
   status: enriched
   artifacts_added: 2
   pass: local-v1
+x-merged-from:
+- nurix-ai

@@ -45,8 +45,8 @@ tags:
 - Company
 - Artificial Intelligence
 - Conversational AI
-- Agentic AI
-- Customer-Support
+- AI Agents
+- Customer Support
 - Sales
 - Voice
 - Automation
@@ -61,6 +61,7 @@ tags_raw:
 - Voice
 - Automation
 - Contact Center
+- Customer-Support
 apis: []
 common:
 - type: DomainSecurity
